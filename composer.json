@@ -1,0 +1,17 @@
+{
+    "name": "matheushg94/buscador-cursos-alura",
+    "description": "Projeto que busca cursos no site da Alura",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Matheushg94\\BuscadorCursosAlura\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matheus",
+            "email": "mat.hen.gra@gmail.com"
+        }
+    ],
+    "require": {}
+}
