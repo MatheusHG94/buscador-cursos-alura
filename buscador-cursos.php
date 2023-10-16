@@ -18,6 +18,9 @@
 
     >composer update
     comando para instalar e atualizar os pacotes listados no composer.json, nas versões declaradas ou mais atuais
+
+    >composer dumpautoload
+    comando para atualizar o autoload
 */
 
 require_once 'vendor/autoload.php';
