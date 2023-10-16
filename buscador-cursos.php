@@ -14,10 +14,10 @@
     comando para instalar o pacote x
 
     >composer install
-    comando para instalar os pacotes listados no composer.lock
+    comando para instalar os pacotes listados no composer.lock, nas exatas versões definidas
 
     >composer update
-    comando para instalar e atualizar os pacotes listados no composer.json
+    comando para instalar e atualizar os pacotes listados no composer.json, nas versões declaradas ou mais atuais
 */
 
 require_once 'vendor/autoload.php';
