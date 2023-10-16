@@ -32,8 +32,7 @@ class Buscador
         $cursos = [];
         
         foreach ($cursosHtml as $cursoHtml) {
-            $curso = $cursoHtml->textContent;
-            array_push($cursos, $curso);
+            array_push($cursos, $cursoHtml->textContent);
 
             // alternativa:
             // $cursos[] = $cursoHtml->textContent;
