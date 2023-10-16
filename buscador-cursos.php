@@ -21,9 +21,8 @@
 */
 
 require_once 'vendor/autoload.php';
-require_once 'src/Buscador.php';
 
-use Alura\BuscadorDeCursos\Buscador;
+use Matheushg94\BuscadorCursosAlura\Buscador;
 use GuzzleHttp\Client;
 use Symfony\Component\DomCrawler\Crawler;
 
