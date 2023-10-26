@@ -24,6 +24,13 @@
     },
     "scripts": {
         "phpcs": "phpcs --standard=PSR12 src/",
-        "phan": "phan --allow-polyfill-parser"
+        "phan": "phan --allow-polyfill-parser",
+        "check": [
+            "@phan",
+            "@phpcs"
+        ]
+    },
+    "scripts-descriptions": {
+        "check": "Runs code verifications: PHAN, PHPCS."
     }
 }
