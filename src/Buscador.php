@@ -30,7 +30,7 @@ class Buscador
         $cursosHtml = $this->crawler->filter('span.card-curso__nome');
 
         $cursos = [];
-        
+
         foreach ($cursosHtml as $cursoHtml) {
             array_push($cursos, $cursoHtml->textContent);
 

@@ -44,6 +44,9 @@
 
     Phan
     pacote para verificar erros nos código
+
+    VENDOR/BIN
+    o composer joga arquivos executáveis na cli para dentro da pasta vendor/bin
 */
 
 require_once 'vendor/autoload.php';
